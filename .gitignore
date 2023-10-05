@@ -3,3 +3,7 @@
 
 # Vs code
 .vscode
+
+#dev
+example_output.json
+user_tagged_notes.json
