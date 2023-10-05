@@ -1,0 +1,2 @@
+# nostro
+Nostr Osint CLI
