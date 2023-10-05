@@ -4,7 +4,7 @@
 **Nostr Osint Tool** 🔎 𓅦  
   
 
-<img src="images/logo.png" alt="Nostr Logo" width="300" height="200">  
+<img src="images/logo.png" alt="Nostr Logo" width="250" height="190">  
 
 `NostrO` is designed for conducting *Open Source Intelligence* (OSINT) operations on [Nostr](https://nostr.com/).  
 NostrO facilitates operations such as retrieving relay infos, keyword search on notes filtered by user, and more.  
