@@ -1,5 +1,5 @@
 # NostrO
-[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)  [![Go Report Card](https://goreportcard.com/badge/github.com/r3drun3/nostro)](https://goreportcard.com/report/github.com/r3drun3/nostro)  [![goreleaser](https://github.com/R3DRUN3/nostro/actions/workflows/release.yaml/badge.svg)](https://github.com/R3DRUN3/nostro/actions/workflows/release.yaml)  [![Latest Release](https://img.shields.io/github/v/release/r3drun3/nostro?logo=github)](https://github.com/r3drun3/nostro/releases)
+[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)  [![Go Report Card](https://goreportcard.com/badge/github.com/r3drun3/nostro)](https://goreportcard.com/report/github.com/r3drun3/nostro)  [![goreleaser](https://github.com/R3DRUN3/nostro/actions/workflows/release.yaml/badge.svg)](https://github.com/R3DRUN3/nostro/actions/workflows/release.yaml)  [![Latest Release](https://img.shields.io/github/v/release/r3drun3/nostro?logo=github)](https://github.com/r3drun3/nostro/releases/lates)
 
 **Nostr Osint Tool** 🔎 𓅦  
   
