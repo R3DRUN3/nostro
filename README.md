@@ -10,7 +10,7 @@
 NostrO facilitates operations such as keyword search on filtered user notes, and more.  
 
 > **Note**
-> The tool is currently in the experimental phase, and we welcome pull requests and contributions!
+> The tool is currently in a very early and experimental phase, and I welcome pull requests and contributions!
 
 
 ## Examples
