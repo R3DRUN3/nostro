@@ -7,10 +7,36 @@
 <img src="images/logo.png" alt="Nostr Logo" width="300" height="200">  
 
 `NostrO` is designed for conducting *Open Source Intelligence* (OSINT) operations on [Nostr](https://nostr.com/).  
-NostrO facilitates operations such as keyword search on filtered user notes, and more.  
+NostrO facilitates operations such as retrieving relay infos, keyword search on notes filtered by user, and more.  
 
-> **Note**
-> The tool is currently in a very early and experimental phase, and I welcome pull requests and contributions!
+> **Warning**
+> The tool is currently in a very early and experimental phase.
+
+## Development
+I welcome pull requests and contributions!  
+This tool is a CLI implemented with [cobra](https://github.com/spf13/cobra) and [go-nostr](https://github.com/nbd-wtf/go-nostr) library.  
+I suggest using `VS Code` for local development.  
+For debugging you can create a `launch.json` file similar to the following (change the command you want to test):  
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/main.go", // Update the path to main.go
+            "args": ["relay", "info", "bitcoinmaximalists.online"],
+            "env": {},
+            "showLog": true
+        }
+    ]
+}
+```  
+
+  
+
 
 
 ## Examples
