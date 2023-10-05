@@ -1,35 +1,3 @@
-// package commands
-
-// import (
-// 	"context"
-// 	"fmt"
-
-// 	"github.com/nbd-wtf/go-nostr/nip11"
-// 	"github.com/spf13/cobra"
-// )
-
-// var infoCmd = &cobra.Command{
-// 	Use:   "info [RELAY]",
-// 	Short: "Retrieve relay information document (nip-11)",
-// 	Long:  `The info subcommand retrieves the relay capabilities, administrative contacts, and various server attributes.`,
-// 	Args:  cobra.ExactArgs(1), // Expects exactly 1 argument (relay name)
-// 	Run: func(cmd *cobra.Command, args []string) {
-// 		url := args[0]
-// 		data, err := nip11.Fetch(context.Background(), url)
-
-// 		if err != nil {
-// 			panic(err)
-// 		}
-// 		fmt.Println(data)
-
-// 	},
-// }
-
-// func init() {
-// 	// Add the "info" subcommand to the "relay" command
-// 	relayCmd.AddCommand(infoCmd)
-// }
-
 package commands
 
 import (

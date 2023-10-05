@@ -1,0 +1,373 @@
+[
+ {
+  "id": "29284c3b34817defb97b5d2314bc8181429301b0e6c7ec7cb28b17d119c5786e",
+  "pubkey": "fe2d5cf62e95aab419b07b6f8a7b75d3cb3066fae25c6b44ace0f9f30c59303d",
+  "created_at": 1696107519,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "0ca12e0defe3803153eaf8a7980331dba9e0dbb6e293948c84019a2401801638",
+    ""
+   ],
+   [
+    "e",
+    "d69b19b56aa95dcf50804d73348b9971a6d5b96de860b9b8592c17fdcb278db2"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "Then tell yourself you’re not buying any more. Stop going to the gas station or corner store, there’s nothing good there. Change buying habits",
+  "sig": "d15fa8fb877d02533d067dbb1cf87cc638510bdd60bffd6c7d1e3730bb31cc24acae501615aacf3e01e052cc0c0531de4aabac20c746b616e2e903a08e8ccdc7"
+ },
+ {
+  "id": "d69b19b56aa95dcf50804d73348b9971a6d5b96de860b9b8592c17fdcb278db2",
+  "pubkey": "fe2d5cf62e95aab419b07b6f8a7b75d3cb3066fae25c6b44ace0f9f30c59303d",
+  "created_at": 1696107410,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "0ca12e0defe3803153eaf8a7980331dba9e0dbb6e293948c84019a2401801638",
+    ""
+   ],
+   [
+    "e",
+    "529306f2b5b85af1598a179abb596f555f297bf9389d554d3e493d76b0aea816"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "Best advice, if you have the ability to lock yourself down for a week, just don’t leave the house the first week.",
+  "sig": "229f673f356217a4e8d95ac5d6976380a156f2a7175529769d0a06b156ee000cc16444c91025d6cb2ab33f57be62fe2c5843b4376376eaa0463eeb8445db757c"
+ },
+ {
+  "id": "1ec49df9f3c184e2f7543a96526270ee7b4faa40ce1570be2dddc9a5fc5bc5f9",
+  "pubkey": "2ad2e2a2681822fe4066f4609577430d11c927f60305b28fd75afd95bd8ebc8c",
+  "created_at": 1695854422,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "74fd10b9f44d0a4761424b20ca0e7b3a45560ddfe8cce18165abf239ead3fc1b",
+    "",
+    "reply"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "In fact trying to \"enlighten\" people is off putting",
+  "sig": "27de13e861b7cdf6d36ac7a76735ac7662650d5056a1a5f8628846c5a73fd588a3d2a976232dced2148203bbb6631450b326b9fa014fe4f0be9985d74da040e1"
+ },
+ {
+  "id": "7579bca141af2faf56cc86c1669c2c57fc042e0e7727bd6535a583bd8178a0f4",
+  "pubkey": "2ad2e2a2681822fe4066f4609577430d11c927f60305b28fd75afd95bd8ebc8c",
+  "created_at": 1695854354,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "74fd10b9f44d0a4761424b20ca0e7b3a45560ddfe8cce18165abf239ead3fc1b",
+    "",
+    "root"
+   ],
+   [
+    "e",
+    "915da58c0726cf3cf04165c3b0fad5b0fbfa00d70c4e9c70a60c9b8456c99cee"
+   ],
+   [
+    "e",
+    "479e4e4c4d6b9ee60c8be4a4b7d06fbc1f1ab5edf341ab153652d7a064b6836c",
+    "",
+    "reply"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ],
+   [
+    "p",
+    "2ad2e2a2681822fe4066f4609577430d11c927f60305b28fd75afd95bd8ebc8c"
+   ]
+  ],
+  "content": "I tried for years, it's not effective. Better to just live your life, and let them live their's. Eventually, if they are curious they will ask.",
+  "sig": "dff1047413c3c9645ce4bce219012e836285d938f0fc2c1208f3ae47b55e8ff9db5dfbb802abcf84b078ac6af9df4b1c43741af06eb61519a4e25e78a676ec62"
+ },
+ {
+  "id": "915da58c0726cf3cf04165c3b0fad5b0fbfa00d70c4e9c70a60c9b8456c99cee",
+  "pubkey": "2ad2e2a2681822fe4066f4609577430d11c927f60305b28fd75afd95bd8ebc8c",
+  "created_at": 1695840336,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "74fd10b9f44d0a4761424b20ca0e7b3a45560ddfe8cce18165abf239ead3fc1b",
+    "",
+    "reply"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "Nope, they don't won't to hear it.",
+  "sig": "f0cd21912fb3c475208cdf05efb5f4be031d1b63acdc277882d2982147222e88e383dec21cba03328a00b52aeb4e6492d8516a981fa39f55d12c595cf0487434"
+ },
+ {
+  "id": "f53c08145a062f3ea1c46dfa9e89d4d08fd28d99d000cd5d7ced44a8b60be2ad",
+  "pubkey": "1f601e6ba82d9387164278c55168b103b60cd206d49b7bf19670a8221c644096",
+  "created_at": 1695385697,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "5e9939ed6e6ac2ff884c8dd1710fd0b9fffe369f035c1cf30793132f0d906519",
+    "",
+    "root"
+   ],
+   [
+    "e",
+    "fc0b5ed39de022427f5a4274fca701e564c2acc6ce1c040a48142ec51c58f7f5"
+   ],
+   [
+    "e",
+    "6e2d80276d039db9074be33eeae348ee1a1e4f555ea1313f027e3c76dca25a2d",
+    "",
+    "reply"
+   ],
+   [
+    "p",
+    "fe7f6bc6f7338b76bbf80db402ade65953e20b2f23e66e898204b63cc42539a3"
+   ],
+   [
+    "p",
+    "95c7f867802a9c7cfb1d2b243be152234864e2cf9f60f467ae32bf1cf05f89fb"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "Small scale hydro ftw",
+  "sig": "7fbcddb2c72308d2dcab52b9c7f7eb9142be8ffbdcc4a342eae5c7add4882d52aa279d38fd84c2dfc16231f412888107765084d661173e28f1228b7cdc5917ca"
+ },
+ {
+  "id": "bb0b1ca174a63d772ab6f19baed2eed196b5af983ea05106c06e1f573802a66b",
+  "pubkey": "af9c48b738d9891640bcace193befdf4ed82357e135193ff05458ed6a3f7aaf4",
+  "created_at": 1694606948,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "535baada16ab07a985d22a4abcda6ee493dbdb7ed3d40385b9c06eef1d5abd08"
+   ],
+   [
+    "e",
+    "c3a01a471c921b2263e2e293c7a424d109288424f3377b9f2ca62a1e56645674"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "Second that motion🤙🏻😂",
+  "sig": "a89a5ee63db4d2aba0f6c277f62267af3dde1459edda1f3cf1582008cb869d89394fdf31be39e5a6dba1925cdcb5a2e82291dacf6a016e1ea3bfb5c6afbcab85"
+ },
+ {
+  "id": "59ace6ae2b736724ffd0267f16460e1c7bc7edbbfc33008606d05e4d69f98910",
+  "pubkey": "3bcc5632a4e750953a2016f991ad8caeb18ce7537b82f25e22c0bd3b9003d8b8",
+  "created_at": 1691318365,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "9afa1bed4b4c0aa334a89272998c07d7dd6faf68d8276b52673aa1378f974637",
+    ""
+   ],
+   [
+    "e",
+    "e9a70d8997b47231433c5044dfaed2d6ffeb514acae1698214d04dbbaa7e70e7"
+   ],
+   [
+    "p",
+    "fcf70a45cfa817eaa813b9ba8a375d713d3169f4a27f3dcac3d49112df67d37e"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "“Disino”… come on, we are at a point in the propaganda where it’s already so ridiculous, this is totally believable even though it’s fake. It’s funny how close to reality it is that it may as well be real.",
+  "sig": "fa3cef030809322210ad8e506e36642de8b5c078c1e921c161f0114aea67714dcccfb0e047f944bced23abd14ebf7083d2ddefaa341ba26f1c438c82e444e8bf"
+ },
+ {
+  "id": "232d00846f60806a8d88d6ce13f58b491175bac7e5db223c87cb7c749074da7b",
+  "pubkey": "c4f5e7a75a8ce3683d529cff06368439c529e5243c6b125ba68789198856cac7",
+  "created_at": 1689829390,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "6d96c6cbb21a27408235906e48a6fde8e9fe509dc7a20decf86e7aca222b9280",
+    "",
+    "root"
+   ],
+   [
+    "e",
+    "c2971c9939e8a7685a37313aa554cfff68348ef7a6acf583b6bfd255d08cb15b"
+   ],
+   [
+    "e",
+    "726f6f727b090a11982301d510d75f3c9f7eb015784edba14446418b4c87e720"
+   ],
+   [
+    "e",
+    "391f3835da37728386f7720a3205d5f2da8e260941261e0aba44e56454d957ec",
+    "",
+    "reply"
+   ],
+   [
+    "p",
+    "c4f5e7a75a8ce3683d529cff06368439c529e5243c6b125ba68789198856cac7"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ],
+   [
+    "p",
+    "43637a311a15f1c253b5d60778ab7544ac639b88e168e7224a900d4a41283183"
+   ]
+  ],
+  "content": "I'll give it a try!\n\nI have an old 3a I can use. Will that still work (if not supported)?",
+  "sig": "534a9dd17241cab341bb3586d6e1a7a1907e615ac06d0a9ad6279be771f6ce2d78ab541b8976255a62217e7f9741e070f5c2c04e0189ce97975e2c18e1b74bc5"
+ },
+ {
+  "id": "726f6f727b090a11982301d510d75f3c9f7eb015784edba14446418b4c87e720",
+  "pubkey": "c4f5e7a75a8ce3683d529cff06368439c529e5243c6b125ba68789198856cac7",
+  "created_at": 1689791312,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "6d96c6cbb21a27408235906e48a6fde8e9fe509dc7a20decf86e7aca222b9280",
+    "",
+    "root"
+   ],
+   [
+    "e",
+    "c2971c9939e8a7685a37313aa554cfff68348ef7a6acf583b6bfd255d08cb15b",
+    "",
+    "reply"
+   ],
+   [
+    "p",
+    "c4f5e7a75a8ce3683d529cff06368439c529e5243c6b125ba68789198856cac7"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "What do you prefer about it?",
+  "sig": "54b89c6f5da35b4d39c2e773fcd9955e8106526d60ffa2df0b45eebb261d732d5554d11ec4d2147a7e9184558e3165db37ce62c0f6e009b4b6d80e297f1df9b8"
+ },
+ {
+  "id": "f7e84239ff52cc6676fefcefbf2d00fab423463357c03576afdcd83412e20e70",
+  "pubkey": "22f22e98a035b8ff97d4cc4c5b34e65ccecae258430eeca46b17b1e8aabb8a5e",
+  "created_at": 1683479026,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "61cef52f2bebdf064ea90d4a081b032faa51c6e123cc7a210120daf2d7e830f4"
+   ],
+   [
+    "e",
+    "3187cf8795e648675eca66bcb547611b39e4671f550f3fbdf3b8aa321521ee2b"
+   ],
+   [
+    "e",
+    "03e348f3849e4dce228d0c43878ae3737878f5aba240a64649a6746440c2a966"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ],
+   [
+    "p",
+    "22f22e98a035b8ff97d4cc4c5b34e65ccecae258430eeca46b17b1e8aabb8a5e"
+   ]
+  ],
+  "content": "Trade skills and tech skills I think will be the most valuable in the future we are heading into. ",
+  "sig": "bdfdcddaa156f250b001e3f23869fa611160915886f76cda2eb1ec7ad7e5d1e025f43ff588c1b7168b2c126552679d95b029e2b355bf1225de0bf4d88712145e"
+ },
+ {
+  "id": "3187cf8795e648675eca66bcb547611b39e4671f550f3fbdf3b8aa321521ee2b",
+  "pubkey": "22f22e98a035b8ff97d4cc4c5b34e65ccecae258430eeca46b17b1e8aabb8a5e",
+  "created_at": 1683478660,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "61cef52f2bebdf064ea90d4a081b032faa51c6e123cc7a210120daf2d7e830f4"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "Useful skills? ",
+  "sig": "757caef8dcd9ba378ef6843d1e4345585f0d1bbaaa31f104cfd51ec2b0a9cad4097cde0feb2e3abdee51069a9208a1997c9d7523f1389484dbef7c22af0919fa"
+ },
+ {
+  "id": "b6a03562785c5370d53d4bab5b16bffc38f681784a5f48d1bd508ca55422738a",
+  "pubkey": "1833ee04459feb2ca4ae690d5f31269ad488c69e5fe903a42b532c677c4a8170",
+  "created_at": 1682699151,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "6c8b28a8bd19ff4d7947620ce5ebe6ed6bf8a2a8b2b3a7d1d35efc6efe6b4367"
+   ],
+   [
+    "e",
+    "c198a75b908ff74788d1bf4af91819afa880e79307a28cb548be5ed3b66e32eb"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "🫂  ",
+  "sig": "914267fee6f6662d890e85122eee13275ab94d69959192f604ff48e70517e3deca29de3888d1f4ad05baf39f95ce55369bd69f7d777b99eed22612e607ef15a6"
+ },
+ {
+  "id": "1ac1d6afd3d93bc7b9f0b1aeb5e8305684815ee5725f3e395715cce9478b3c13",
+  "pubkey": "4408c00c1e9358c05ad11dbe2d3a1d4acb8c2b6dd6386e4e3da9e14bb06df42b",
+  "created_at": 1682605272,
+  "kind": 1,
+  "tags": [
+   [
+    "e",
+    "13d9f9dbdc275bac69141fd7be1b192ad8e6ec4ee30def6800f8259c7d23670a"
+   ],
+   [
+    "e",
+    "132024a33b97781e9acaeb1fe7a8a53e2ad4dce1cf53476b1e608cab6906b9a4"
+   ],
+   [
+    "p",
+    "1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d"
+   ]
+  ],
+  "content": "😢  ",
+  "sig": "fbb46991f5786ae5a49be707c3dd86d55c30d6f0b94869cd82def476650eb50fb995f92a8209b173a86dec7f85214195c7a58e9db32423a99b5ae6eb27564c00"
+ }
+]

@@ -41,7 +41,8 @@ For debugging you can create a `launch.json` file similar to the following (chan
 
 ## Examples
 
-Retrieve relay info:  
+1. Retrieve relay info:  
+
 ```console
 nostro relay info relay.nostrview.com
 ####################### RELAY INFO #######################
@@ -56,4 +57,12 @@ LIMITATION:  &{524288 10 10 5000 256 4 2500 102400 0 false true}
 PAYMENTSURL:  https://relay.nostrview.com/invoices
 ##########################################################
 ```  
+
+1. Retrieve the last 30 notes in which the specified user has been tagged:  
+
+```console
+nosttro notes usertagged npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
+returned events saved to user_tagged_notes.json
+```   
+
 
