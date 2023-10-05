@@ -61,7 +61,7 @@ PAYMENTSURL:  https://relay.nostrview.com/invoices
 </details>  
 
 <details>
-  <summary>Retrieve the last 30 notes in which the specified user has been tagged</summary>
+  <summary>Retrieve from the specified relay the last 30 notes in which the specified user has been tagged</summary>
   
 ```console
 nostro notes usertagged npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
