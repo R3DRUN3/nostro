@@ -42,6 +42,33 @@ For debugging you can create a `launch.json` file similar to the following (chan
 ## Examples
 
 <details>
+  <summary>Command Help</summary>
+
+```console
+nostro --help
+Welcome to NostrO 🔎 𓅦
+
+Usage:
+  nostro [flags]
+  nostro [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  help        Help about any command
+  notes       Operations on notes
+  relay       Operations on relays
+
+Flags:
+  -h, --help   help for nostro
+
+Use "nostro [command] --help" for more information about a command.
+
+```  
+</details>  
+
+
+
+<details>
   <summary>Retrieve relay info</summary>
   
   ```console
@@ -61,14 +88,22 @@ PAYMENTSURL:  https://relay.nostrview.com/invoices
 </details>  
 
 <details>
-  <summary>Retrieve from the specified relay the last 30 notes in which the specified user has been tagged</summary>
+  <summary>Retrieve from the specified relay the last 300 notes in which the specified user has been tagged</summary>
   
 ```console
 nostro notes --usertagged npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
 returned events saved to user_tagged_notes.json
 ```  
-</details>
+</details>  
 
+<details>
+  <summary>Retrieve from the specified relay the last 300 notes from the specified user that have been reposted</summary>
+  
+```console
+nostro notes --userreposted npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
+returned events saved to user_reposted_notes.json
+```  
+</details>
 
 
 
