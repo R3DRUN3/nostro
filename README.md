@@ -128,6 +128,16 @@ Nip05 Valid: false
 </details>  
 
 
+<details>
+  <summary>Retrieve the user contact list from the specified relay</summary>
+
+```console
+nostro user --contactlist npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nos.lol
+returned events saved to user_contact_list.json
+```
+</details>  
+
+
 
 <details>
   <summary>Retrieve from the specified relay the last 300 direct messages that the specified user received</summary>

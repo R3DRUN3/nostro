@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"os"
 	"time"
 
 	"github.com/nbd-wtf/go-nostr"
@@ -27,6 +28,7 @@ type User struct {
 }
 
 var userData bool
+var userContactList bool
 
 var UserCmd = &cobra.Command{
 	Use:   "user",
@@ -106,6 +108,59 @@ var UserCmd = &cobra.Command{
 			// } else {
 			// 	panic(err)
 			// }
+		} else if userContactList {
+			if len(args) != 2 {
+				return fmt.Errorf("user npbu key and relay name are required")
+			}
+			npub := args[0]
+			url := args[1]
+			// connect to relay
+			ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
+			relay, err := nostr.RelayConnect(ctx, url)
+			if err != nil {
+				panic(err)
+			}
+			// create filters
+			var filters nostr.Filters
+			if _, v, err := nip19.Decode(npub); err == nil {
+				t := make(map[string][]string)
+				// making a "p" tag for the above public key.
+				// this filters for messages tagged with the user, mainly replies.
+				t["p"] = []string{v.(string)}
+				filters = []nostr.Filter{{
+					Kinds:   []int{int(nostr.KindContactList)},
+					Authors: []string{v.(string)},
+					//Tags:  t,
+					Limit: 300,
+				}}
+			} else {
+				panic("not a valid npub!")
+			}
+			// create a subscription and submit to relay
+			// results will be returned on the sub.Events channel
+			sub, _ := relay.Subscribe(ctx, filters)
+
+			// we will append the returned events to this slice
+			evs := make([]nostr.Event, 0)
+
+			go func() {
+				<-sub.EndOfStoredEvents
+				cancel()
+			}()
+			for ev := range sub.Events {
+				evs = append(evs, *ev)
+			}
+			filename := "user_contact_list.json"
+			if f, err := os.Create(filename); err == nil {
+				fmt.Fprintf(os.Stderr, "returned events saved to %s\n", filename)
+				// encode the returned events in a file
+				enc := json.NewEncoder(f)
+				enc.SetIndent("", " ")
+				enc.Encode(evs)
+				f.Close()
+			} else {
+				panic(err)
+			}
 		} else {
 			cmd.Help()
 		}
@@ -115,4 +170,5 @@ var UserCmd = &cobra.Command{
 
 func init() {
 	UserCmd.Flags().BoolVarP(&userData, "info", "", false, "Retrieve user info from the specified relay.")
+	UserCmd.Flags().BoolVarP(&userContactList, "contactlist", "", false, " from the specified relay (nip-02).")
 }

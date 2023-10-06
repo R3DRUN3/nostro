@@ -4,7 +4,7 @@
 # Vs code
 .vscode
 
-#dev
+#dev and runtime
 example_output.json
 user_written_notes.json
 user_tagged_notes.json
@@ -12,3 +12,4 @@ user_reposted_notes.json
 user_received_direct_messages.json
 user_reacted_notes.json
 user_data.json
+user_contact_list.json
