@@ -105,19 +105,26 @@ PAYMENTSURL:  https://relay.nostrview.com/invoices
   <summary>Retrieve from the specified relay the last 300 direct messages that the specified user received</summary>
 
 ```console
-nostro dm --userreceived npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
+nostro dm --userreceived npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nos.lol
 returned events saved to user_received_direct_messages.json
 ```
 </details>  
 
+<details>
+  <summary>Retrieve from the specified relay the last 300 notes that the specified user wrote</summary>
 
+```console
+nostro notes --userwritten npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nos.lol
+returned events saved to user_written_notes.json
+```
+</details>  
 
 
 <details>
   <summary>Retrieve from the specified relay the last 300 notes in which the specified user has been tagged</summary>
   
 ```console
-nostro notes --usertagged npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
+nostro notes --usertagged npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nos.lol
 returned events saved to user_tagged_notes.json
 ```  
 </details>  
@@ -126,7 +133,7 @@ returned events saved to user_tagged_notes.json
   <summary>Retrieve from the specified relay the last 300 notes from the specified user that have been reposted</summary>
   
 ```console
-nostro notes --userreposted npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
+nostro notes --userreposted npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nos.lol
 returned events saved to user_reposted_notes.json
 ```  
 </details>
@@ -136,7 +143,7 @@ returned events saved to user_reposted_notes.json
   <summary>Retrieve from the specified relay the last 300 reaction received by notes from the specified user</summary>
   
 ```console
-nostro notes --userreacted npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
+nostro notes --userreacted npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nos.lol
 returned events saved to user_reacted_notes.json
 ```  
 </details>
