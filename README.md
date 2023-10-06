@@ -132,4 +132,14 @@ returned events saved to user_reposted_notes.json
 </details>
 
 
+<details>
+  <summary>Retrieve from the specified relay the last 300 reaction received by notes from the specified user</summary>
+  
+```console
+nostro notes --userreacted npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
+returned events saved to user_reacted_notes.json
+```  
+</details>
+
+
 

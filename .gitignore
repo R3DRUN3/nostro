@@ -9,3 +9,4 @@ example_output.json
 user_tagged_notes.json
 user_reposted_notes.json
 user_received_direct_messages.json
+user_reacted_notes.json
