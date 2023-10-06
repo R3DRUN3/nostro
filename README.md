@@ -26,8 +26,8 @@ For debugging you can create a `launch.json` file similar to the following (chan
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${workspaceFolder}/main.go", // Update the path to main.go
-            "args": ["relay", "info", "bitcoinmaximalists.online"],
+            "program": "${workspaceFolder}/main.go",
+            "args": ["relay", "--info", "bitcoinmaximalists.online"],
             "env": {},
             "showLog": true
         }
@@ -45,7 +45,7 @@ For debugging you can create a `launch.json` file similar to the following (chan
   <summary>Retrieve relay info</summary>
   
   ```console
-nostro relay info relay.nostrview.com
+nostro relay --info relay.nostrview.com
 ####################### RELAY INFO #######################
 NAME:  relay.nostrview.com
 DESCRIPTION:  Nostrview relay
@@ -64,7 +64,7 @@ PAYMENTSURL:  https://relay.nostrview.com/invoices
   <summary>Retrieve from the specified relay the last 30 notes in which the specified user has been tagged</summary>
   
 ```console
-nostro notes usertagged npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
+nostro notes --usertagged npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
 returned events saved to user_tagged_notes.json
 ```  
 </details>

@@ -11,7 +11,7 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "nostro",
 	Short: "Nostr OSINT.",
-	Long:  `NostrO enables you to do Open Source Intelligence on the Nostr protocol.`,
+	Long:  `Welcome to NostrO 🔎 𓅦`,
 	Run: func(cmd *cobra.Command, args []string) {
 		// Display a message indicating that a subcommand is required
 		fmt.Println("################### Welcome to NostrO 🔎 𓅦 ###################")
