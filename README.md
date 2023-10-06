@@ -55,6 +55,7 @@ Usage:
 Available Commands:
   completion  Generate the autocompletion script for the specified shell
   dm          Operations on direct messages
+  event       Operations on events
   help        Help about any command
   notes       Operations on notes
   relay       Operations on relays
@@ -129,6 +130,32 @@ Nip05 Valid: false
 
 
 <details>
+  <summary>Retrieve the specified event from the specified relay</summary>
+
+```console
+nostro event --info note1se5g5crjxaaet4vzy3xtpurv4as3dsfd5dteglk4z3f2xafstl5qyry4m3 nos.lol
+
+####################### EVENT INFO #######################
+ID: 86688a6072377b95d582244cb0f06caf6116c12da357947ed51452a375305fe8
+PubKey: 1f2080c78120d6181141c0053feb27be6482cf27e2b287d102c566ac6170e22d
+Kind: 1
+Created At: 1696529147
+Tags: [[t osint] [t osint] [t Nostr] [t nostr] [t github] [t github] [r https://github.com/r3drun3/nostro] [r https://image.nostr.build/7a83f1b7b006bdecd047731c6b0fcec54d1a5186ae222f3e98e15953850712f4.jpg]]
+Content: I believe that one of the best ways to learn a technology is to experiment and build upon it. That's why I've started developing a tool for performing #osint operations on #Nostr on my #github. 
+Feel free to collaborate if you want ☺
+https://github.com/r3drun3/nostro
+
+
+https://image.nostr.build/7a83f1b7b006bdecd047731c6b0fcec54d1a5186ae222f3e98e15953850712f4.jpg
+Signature: 9b3b4af0bac8df5f62dd54b8f5be34bdee7545e0a6453fe6e3462861d29390282e95a4e85f8d2bf801d1f0da3ccc955b3ecff0ffbc6786ffa7d1c7017650b34a
+##########################################################
+```
+</details>  
+
+
+
+
+<details>
   <summary>Retrieve the user contact list from the specified relay</summary>
 
 ```console
@@ -185,6 +212,8 @@ nostro notes --userreacted npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2ccts
 returned events saved to user_reacted_notes.json
 ```  
 </details>  
+
+<br/>  
 
 For all available command use the cli `help` function.
 

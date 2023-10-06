@@ -24,6 +24,7 @@ func init() {
 	rootCmd.AddCommand(commands.NotesCmd)
 	rootCmd.AddCommand(commands.DirectMessagesCmd)
 	rootCmd.AddCommand(commands.UserCmd)
+	rootCmd.AddCommand(commands.EventsCmd)
 }
 
 func Execute() {

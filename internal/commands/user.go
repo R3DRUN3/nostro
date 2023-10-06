@@ -96,18 +96,6 @@ var UserCmd = &cobra.Command{
 			fmt.Println("Created At:", user.CreatedAt)
 			fmt.Println("Nip05 Valid:", user.Nip05Valid)
 			fmt.Println("##########################################################")
-			// Uncomment to save user info into file
-			// filename := "user_data.json"
-			// if f, err := os.Create(filename); err == nil {
-			// 	fmt.Fprintf(os.Stderr, "returned events saved to %s\n", filename)
-			// 	// encode the returned events in a file
-			// 	enc := json.NewEncoder(f)
-			// 	enc.SetIndent("", " ")
-			// 	enc.Encode(evs)
-			// 	f.Close()
-			// } else {
-			// 	panic(err)
-			// }
 		} else if userContactList {
 			if len(args) != 2 {
 				return fmt.Errorf("user npbu key and relay name are required")
