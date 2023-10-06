@@ -7,7 +7,7 @@
 <img src="images/logo.png" alt="Nostr Logo" width="250" height="190">  
 
 `NostrO` is designed for conducting *Open Source Intelligence* (OSINT) operations on [Nostr](https://nostr.com/).  
-NostrO facilitates operations such as retrieving relay infos, keyword search on notes filtered by user, and more.  
+NostrO facilitates operations such as retrieving relay or user infos, search on notes, and more.  
 
 > **Warning**
 > The tool is currently in a very early and experimental phase.
@@ -184,7 +184,7 @@ returned events saved to user_reposted_notes.json
 nostro notes --userreacted npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nos.lol
 returned events saved to user_reacted_notes.json
 ```  
-</details>
+</details>  
 
-
+For all available command use the cli `help` function.
 
