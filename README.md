@@ -64,6 +64,18 @@ Flags:
 Use "nostro [command] --help" for more information about a command.
 
 ```  
+
+```console
+nostro relay --help
+Retrieve data on nostr relays
+
+Usage:
+  nostro relay [flags]
+
+Flags:
+  -h, --help   help for relay
+      --info   Retrieve relay information document (nip-11)
+```
 </details>  
 
 
