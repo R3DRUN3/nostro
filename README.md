@@ -54,6 +54,7 @@ Usage:
 
 Available Commands:
   completion  Generate the autocompletion script for the specified shell
+  dm          Operations on direct messages
   help        Help about any command
   notes       Operations on notes
   relay       Operations on relays
@@ -98,6 +99,19 @@ PAYMENTSURL:  https://relay.nostrview.com/invoices
 ##########################################################
 ```  
 </details>  
+
+
+<details>
+  <summary>Retrieve from the specified relay the last 300 direct messages that the specified user received</summary>
+
+```console
+nostro dm --userreceived npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nostr.wine
+returned events saved to user_received_direct_messages.json
+```
+</details>  
+
+
+
 
 <details>
   <summary>Retrieve from the specified relay the last 300 notes in which the specified user has been tagged</summary>

@@ -22,6 +22,7 @@ var rootCmd = &cobra.Command{
 func init() {
 	rootCmd.AddCommand(commands.RelayCmd)
 	rootCmd.AddCommand(commands.NotesCmd)
+	rootCmd.AddCommand(commands.DirectMessagesCmd)
 }
 
 func Execute() {
