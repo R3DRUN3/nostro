@@ -23,6 +23,7 @@ func init() {
 	rootCmd.AddCommand(commands.RelayCmd)
 	rootCmd.AddCommand(commands.NotesCmd)
 	rootCmd.AddCommand(commands.DirectMessagesCmd)
+	rootCmd.AddCommand(commands.UserCmd)
 }
 
 func Execute() {
