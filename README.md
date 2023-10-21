@@ -9,8 +9,7 @@
 `NostrO` is designed for conducting *Open Source Intelligence* (OSINT) operations on [Nostr](https://nostr.com/).  
 NostrO facilitates operations such as retrieving relay or user infos, search on notes, and more.  
 
-> **Warning**
-> The tool is currently in a very early and experimental phase.
+
 
 ## Development
 I welcome pull requests and contributions!  
@@ -156,7 +155,7 @@ Signature: 9b3b4af0bac8df5f62dd54b8f5be34bdee7545e0a6453fe6e3462861d29390282e95a
 
 
 <details>
-  <summary>Retrieve the user contact list from the specified relay</summary>
+  <summary>Retrieve a user contact list from the specified relay</summary>
 
 ```console
 nostro user --contactlist npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nos.lol
