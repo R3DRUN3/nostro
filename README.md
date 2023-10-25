@@ -6,7 +6,7 @@
 
 <img src="images/logo.png" alt="Nostr Logo" width="250" height="190">  
 
-`NostrO` is designed for conducting *Open Source Intelligence* (OSINT) operations on [Nostr](https://nostr.com/).  
+`NostrO` is a tool designed for conducting *Open Source Intelligence* (OSINT) operations on [Nostr](https://nostr.com/).  
 NostrO facilitates operations such as retrieving relay or user infos, search on notes, and more.  
 
 
