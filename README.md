@@ -109,17 +109,19 @@ PAYMENTSURL:  https://relay.nostrview.com/invoices
 ```console
 nostro user --info npub1rusgp3upyrtpsy2pcqznl6e8hejg9ne8u2eg05gzc4n2cctsugksvcx2np nos.lol
 ####################### USER INFO #######################
-[[i twitter:AIXI282589933 1708101078024343815] [i github:R3DRUN3 0f954e6fada304dacdb8e7389eefaf2b]]
+[[i github:R3DRUN3 0f954e6fada304dacdb8e7389eefaf2b]]
 Name: r3drun3
 Picture: https://i.postimg.cc/rwTgJm0G/symbol-1.gif
 Username: r3drun3
 Display Name: r3drun3
 Banner: https://i.postimg.cc/90FYS0D7/1327483.png
 Website: 
-About: Just a collection of quantum bits,
+About: ᚱᛊᚧᚱVᚺᛊ
+Jus a collection of quantum bits,
 constantly phasing between cyberspace and meatspace.
-Nip05: r3drun3@Nostr-Check.com
-Lud16: smallfiction78@walletofsatoshi.com
+Running #Bitcoin
+Nip05: r3drun3@vlt.ge
+Lud16: me@ln.stackzoo.io
 Lud06: 
 Created At: 1689593935
 Nip05 Valid: false
